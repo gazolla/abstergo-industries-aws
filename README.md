@@ -12,40 +12,40 @@ Este relatório apresenta o planejamento do processo de implementação de ferra
 
 O projeto de implementação será dividido em 3 etapas principais, cada uma focada em um serviço AWS específico:
 
-### Etapa 1: AWS CloudFormation
+### Fase 1: Implementação do AWS CloudFormation
 
-O AWS CloudFormation será utilizado como uma ferramenta de infraestrutura como código para automatizar a criação de recursos na AWS de forma previsível e repetível. Esta etapa facilitará a migração dos serviços on-premises para a nuvem, permitindo a criação ágil do sistema em nuvem e o gerenciamento em escala.
+Nesta fase inicial, adotaremos o AWS CloudFormation como nossa solução de Infraestrutura como Código (IaC). Esta ferramenta nos permitirá definir e gerenciar recursos de infraestrutura AWS através de templates, automatizando o processo de criação e atualização de ambientes.
 
-**Desafios previstos:**
-- Complexidade na definição de templates para sistemas legados
-- Necessidade de treinamento intensivo da equipe
+**Dificuldades previstas:**
+- Elaboração de templates adequados para infraestruturas complexas existentes
+- Capacitação da equipe técnica para dominar a nova tecnologia
 
-**Soluções planejadas:**
-- Desenvolvimento de templates personalizados para sistemas críticos
-- Workshops práticos de CloudFormation para a equipe de TI
+**Abordagens propostas:**
+- Criação de uma biblioteca de templates customizados para nossas necessidades específicas
+- Realização de uma série de treinamentos práticos e intensivos sobre CloudFormation
 
-### Etapa 2: AWS Migration Hub
+### Fase 2: Utilização do AWS Migration Hub
 
-O AWS Migration Hub proporcionará uma visão centralizada do progresso das migrações de cargas de trabalho para a AWS. Esta etapa permitirá monitorar eficientemente o status das migrações, identificar problemas rapidamente e tomar medidas corretivas quando necessário.
+Na segunda fase, implementaremos o AWS Migration Hub como nossa plataforma central de gerenciamento de migração. Esta ferramenta oferecerá uma visão unificada e em tempo real do progresso de nossa transição para a nuvem AWS.
 
-**Desafios previstos:**
-- Integração com ferramentas de migração existentes
-- Possível resistência inicial da equipe à nova plataforma de monitoramento
+**Dificuldades previstas:**
+- Sincronização eficiente com nossas ferramentas atuais de migração
+- Possível hesitação dos colaboradores em adotar uma nova plataforma de monitoramento
 
-**Soluções planejadas:**
-- Configuração de conectores personalizados para ferramentas legadas
-- Sessões de demonstração dos benefícios do Migration Hub para stakeholders
+**Abordagens propostas:**
+- Desenvolvimento de integrações personalizadas para garantir compatibilidade com nossos sistemas existentes
+- Organização de apresentações detalhadas para demonstrar as vantagens do Migration Hub aos principais interessados
 
 ### Etapa 3: Migração de Servidores para Amazon EC2
 
 A migração dos servidores on-premises para instâncias Amazon EC2 permitirá maior flexibilidade, escalabilidade e redução de custos operacionais. Esta etapa será crucial para a modernização da infraestrutura da empresa.
 
-**Desafios previstos:**
+**Dificuldades previstas:**
 - Compatibilidade de sistemas operacionais e aplicações legadas
 - Minimização do tempo de inatividade durante a migração
 - Otimização de recursos e custos na nuvem
 
-**Soluções planejadas:**
+**Abordagens propostas:**
 - Utilização do AWS Application Migration Service para migração de servidores
 - Implementação de estratégia de migração em fases para reduzir impacto
 - Configuração de Auto Scaling e instâncias reservadas para otimização de custos
