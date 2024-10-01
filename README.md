@@ -1,14 +1,12 @@
 # RELATÓRIO DE PLANEJAMENTO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 
-**Data:** 31/03/2024
-
 **Empresa:** Abstergo Industries
 
 **Responsável:** Sebastião Gazolla Costa Junior
 
 ## Introdução
 
-Este relatório apresenta o planejamento do processo de implementação de ferramentas AWS na empresa Abstergo Industries, a ser realizado por Sebastião Gazolla Costa Junior. O objetivo do projeto será implementar 3 serviços AWS estratégicos, visando reduzir custos imediatos, aumentar a disponibilidade dos sistemas e obter ganhos a longo prazo, transitando de um modelo de investimento em capital para pagamento de serviços em nuvem.
+Este relatório apresenta o planejamento do processo de implementação de ferramentas AWS na empresa Abstergo Industries, proposto por Sebastião Gazolla Costa Junior. O objetivo do projeto será implementar 3 serviços AWS estratégicos, visando reduzir custos imediatos, aumentar a disponibilidade dos sistemas e obter ganhos a longo prazo, transitando de um modelo de investimento em capital para pagamento de serviços em nuvem.
 
 ## Descrição do Projeto Planejado
 
